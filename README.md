@@ -25,7 +25,7 @@ O objetivo deste repositório é centralizar scripts simples, rápidos e reutili
  ┗ 📄 README.md
 ⚙️ Scripts Disponíveis
 🧹 limpaTeams.ps1
-> Remove cache e arquivos temporários do Microsoft Teams
+> Remove cache e contas salvas do Microsoft Teams
 > Ajuda a corrigir lentidão e problemas de login
 Recursos:
 Limpeza de cache
@@ -50,13 +50,11 @@ Instalação de atualizações
 
 Abra o PowerShell como Administrador:
 
-Set-ExecutionPolicy Bypass -Scope Process -Force
+Set-ExecutionPolicy Unrestricted
 2️⃣ Executar script
-.\LimpaTemp.ps1
 
 ou
 
-.\AtualizaWin.ps1
 🛠️ Requisitos
 + Windows 10 / 11
 + PowerShell 5.1+
@@ -67,20 +65,13 @@ ou
 ✔ Melhorar produtividade
 ✔ Centralizar scripts úteis
 💻 Exemplo Visual
-PS C:\Scripts> .\LimpaTemp.ps1
 
-[INFO] Iniciando limpeza...
-[OK] Arquivos temporários removidos
-[OK] Cache limpo com sucesso
-[DONE] Processo finalizado
+
 🧠 Futuras Implementações
- Backup automático
  Limpeza de cache de navegadores
- Monitoramento de disco
- Instalação automática de softwares
- Logs detalhados
+ Instalação de Impressoras
 👨‍💻 Autor
-+ Desenvolvido para automação e administração Windows
++ Desenvolvido para automação e administração Windows - Fabio Casa
 <div align="center">
 > SYSTEM STATUS: ONLINE
 > AUTOMATION READY
