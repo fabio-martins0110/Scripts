@@ -2,7 +2,7 @@
 # ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗    ██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝██╔════╝
 # ███████║██║   ██║   ██║   ██║   ██║    ███████╗██║     ██████╔╝██║██████╔╝   ██║   ███████╗
 # ██╔══██║██║   ██║   ██║   ██║   ██║    ╚════██║██║     ██╔══██╗██║██╔═══╝    ██║   ╚════██║
-# ██║  ██║╚██████╔╝   ██║   ╚██████╔╝    ███████║╚██████╗██║  ██║██║██║        ██║   ███████║
+# ██║  ██║╚██████╔╝   ██║   ╚██████╔╝    ███████║╚██████╗██║  ██║██║██║        ██║   ███████╗
 # ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝     ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝   ╚══════╝
 
 <div align="center">
@@ -25,23 +25,29 @@ O objetivo deste repositório é centralizar scripts simples, rápidos e reutili
  ┗ 📄 README.md
 ⚙️ Scripts Disponíveis
 🧹 limpaTeams.ps1
-> Remove cache e contas salvas do Microsoft Teams
-> Ajuda a corrigir lentidão e problemas de login
-Recursos:
+
+Remove cache e contas salvas do Microsoft Teams
+Ajuda a corrigir lentidão e problemas de login
+
+Recursos
 Limpeza de cache
 Remoção de arquivos temporários
 Reinicialização limpa do Teams
 🗑️ LimpaTemp.ps1
-> Remove arquivos temporários do Windows
-> Libera espaço em disco automaticamente
-Recursos:
+
+Remove arquivos temporários do Windows
+Libera espaço em disco automaticamente
+
+Recursos
 Limpeza de %TEMP%
 Limpeza de cache do sistema
 Exclusão automática de arquivos desnecessários
 🔄 AtualizaWin.ps1
-> Executa atualização automática do Windows
-> Automatiza processos de update do sistema
-Recursos:
+
+Executa atualização automática do Windows
+Automatiza processos de update do sistema
+
+Recursos
 Busca por updates
 Download automático
 Instalação de atualizações
@@ -52,27 +58,28 @@ Abra o PowerShell como Administrador:
 
 Set-ExecutionPolicy Unrestricted
 2️⃣ Executar script
-
-ou
-
+.\NomeDoScript.ps1
 🛠️ Requisitos
-+ Windows 10 / 11
-+ PowerShell 5.1+
-+ Permissão de Administrador
+Windows 10 / 11
+PowerShell 5.1+
+Permissão de Administrador
 📌 Objetivo do Projeto
+
 ✔ Automatizar tarefas repetitivas
 ✔ Facilitar manutenção do Windows
 ✔ Melhorar produtividade
 ✔ Centralizar scripts úteis
+
 💻 Exemplo Visual
-
-
+PS C:\automation-scripts> .\LimpaTemp.ps1
+Iniciando limpeza...
+Arquivos temporários removidos com sucesso.
 🧠 Futuras Implementações
- Limpeza de cache de navegadores
- Instalação de Impressoras
+Limpeza de cache de navegadores
+Instalação de Impressoras
 👨‍💻 Autor
 + Desenvolvido para automação e administração Windows - Fabio Casa
 <div align="center">
-> SYSTEM STATUS: ONLINE
-> AUTOMATION READY
+SYSTEM STATUS: ONLINE
+AUTOMATION READY
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=120&section=footer"/> </div> ```
